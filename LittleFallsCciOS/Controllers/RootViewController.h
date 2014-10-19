@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  RootViewController.h
 //  REMenuExample
 //
 //  Created by Roman Efimov on 2/20/13.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "REMenu.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface RootViewController : UICollectionViewController
 
 @end
